@@ -1,6 +1,6 @@
 {
   "name": "joshua-goss",
-  "type": "commonjs",
+  "type": "module",
   "version": "1.0.0",
   "description": "hello world!",
   "homepage": "https://github.com/itdev161-fa2027/joshua-goss#readme",
@@ -15,7 +15,9 @@
   "author": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "node sever.js",
+    "server": "nodemon server.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
